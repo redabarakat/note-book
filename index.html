@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/test.css">
+    <title>note book</title>
+</head>
+<body>
+    <div class="container">
+        <div class="popup-app">
+            <div class="popup">
+                <div class="header-popup">
+                    <h3>اضف ملاحظه جديده</h3>
+                    <ion-icon name="close-outline"></ion-icon>
+                </div>
+                <form action="#">
+                    <div>
+                        <label>العنوان</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label>الوصف</label>
+                        <textarea></textarea>
+                    </div>
+                    <button>اضافه</button>
+                </form>
+            </div>
+        </div>
+        <header>
+            <h1 class="title"><span><ion-icon name="reader-outline"></ion-icon></span> ملاحظاتي</h1>
+        </header>
+        <div class="card-add">
+            <div class="add"><ion-icon name="add-outline"></ion-icon></div>
+            <p>اضافه ملاحظه</p>
+        </div>
+        <div class="notes">
+        </div>
+    </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./main.js" ></script>
+</body>
+</html>
